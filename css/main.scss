@@ -1,0 +1,40 @@
+$background: #1a75ff;
+$mainfont: 'sans-serif', 'verdana';
+$titleColour: #ffffff;
+$navcolour: #ffffff;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $background;
+}
+
+nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    .nav ul {
+        list-style: none;
+    }
+
+    .nav li {
+        display: inline;
+    }
+
+    .nav a {
+        display: inline-block;
+        padding: 10px;
+        color: $navcolour;
+    }
+}
+
+h1 {
+    font-family: $mainfont;
+    font-size: 50px;
+    color: $titleColour;
+    text-align: center;
+}
