@@ -1,13 +1,12 @@
 body {
   margin: 0;
-  padding: 0;
-  height: 1000px; }
+  padding: 0; }
 
 nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center; }
+  text-align: right; }
   nav .nav ul {
     list-style: none; }
   nav .nav li {
@@ -19,12 +18,27 @@ nav {
     color: #ffffff;
     font-weight: bold; }
 
-h1 {
+.maintitle {
   font-family: "sans-serif", "verdana";
+  color: #ffffff;
+  text-align: center;
+  padding-top: 100px; }
+
+.section1 {
+  background-color: #2e9ded;
+  height: 500px; }
+  .section1 .introduction {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 60px; }
+
+.basics {
   color: #ffffff;
   text-align: center; }
 
-.section1 {
-  background-color: #2e9ded; }
+.section3 {
+  padding-top: 20px; }
+  .section3 .heading3 {
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

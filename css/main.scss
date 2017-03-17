@@ -2,18 +2,19 @@ $mainfont: 'sans-serif', 'verdana';
 $titleColour: #ffffff;
 $navcolour: #ffffff;
 $section1: rgb(46, 157, 237);
+$section2: rgba(42, 41, 41, 0.09);
+$padding: 20px;
 
 body {
     margin: 0;
     padding: 0;
-    height: 1000px;
 }
 
 nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: right;
 
     .nav ul {
         list-style: none;
@@ -32,12 +33,33 @@ nav {
     }
 }
 
-h1 {
+.maintitle {
     font-family: $mainfont;
+    color: $titleColour;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section1 {
+    background-color: $section1;
+    height: 500px;
+
+    .introduction {
+        color: $titleColour;
+        text-align: center;
+        padding-top: 60px;
+    }
+}
+
+.basics {
     color: $titleColour;
     text-align: center;
 }
 
-.section1{
-  background-color: $section1;
+.section3 {
+    padding-top: $padding;
+
+    .heading3 {
+        font-weight: bold;
+    }
 }
