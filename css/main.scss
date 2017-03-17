@@ -1,17 +1,15 @@
-$background: #1a75ff;
 $mainfont: 'sans-serif', 'verdana';
 $titleColour: #ffffff;
 $navcolour: #ffffff;
+$section1: rgb(46, 157, 237);
 
 body {
     margin: 0;
     padding: 0;
-    background-color: $background;
+    height: 1000px;
 }
 
 nav {
-    border: 1px solid #ccc;
-    border-width: 1px 0;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -27,14 +25,19 @@ nav {
 
     .nav a {
         display: inline-block;
+        text-decoration: none;
         padding: 10px;
         color: $navcolour;
+        font-weight: bold;
     }
 }
 
 h1 {
     font-family: $mainfont;
-    font-size: 50px;
     color: $titleColour;
     text-align: center;
+}
+
+.section1{
+  background-color: $section1;
 }
