@@ -18,6 +18,21 @@ nav {
     color: #ffffff;
     font-weight: bold; }
 
+.name {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  top: 10px; }
+
+.student {
+  color: #ffffff;
+  text-align: left;
+  position: absolute;
+  font-size: 15px;
+  top: 30px;
+  left: -70px; }
+
 .maintitle {
   font-family: "sans-serif", "verdana";
   color: #ffffff;

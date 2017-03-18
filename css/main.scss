@@ -33,6 +33,23 @@ nav {
     }
 }
 
+.name {
+  color: $titleColour;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  top: 10px;
+}
+
+.student {
+  color:$titleColour;
+  text-align: left;
+  position: absolute;
+  font-size: 15px;
+  top:30px;
+  left:-70px;
+}
+
 .maintitle {
     font-family: $mainfont;
     color: $titleColour;
