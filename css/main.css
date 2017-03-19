@@ -51,9 +51,19 @@ nav {
   color: #ffffff;
   text-align: center; }
 
-.section3 {
-  padding-top: 20px; }
-  .section3 .heading3 {
-    font-weight: bold; }
+.sectionTitle {
+  padding-top: 50px;
+  text-align: center; }
+
+.sectionProjects {
+  padding-top: 50px; }
+  .sectionProjects .project1 {
+    padding-top: 50px;
+    margin-right: 50px; }
+  .sectionProjects .project3 {
+    margin-left: 50px; }
+
+footer {
+  background-color: rgba(216, 217, 222, 0.88); }
 
 /*# sourceMappingURL=main.css.map */

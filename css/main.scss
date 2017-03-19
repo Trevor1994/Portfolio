@@ -34,20 +34,20 @@ nav {
 }
 
 .name {
-  color: $titleColour;
-  font-weight: bold;
-  text-align: left;
-  position: absolute;
-  top: 10px;
+    color: $titleColour;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 10px;
 }
 
 .student {
-  color:$titleColour;
-  text-align: left;
-  position: absolute;
-  font-size: 15px;
-  top:30px;
-  left:-70px;
+    color: $titleColour;
+    text-align: left;
+    position: absolute;
+    font-size: 15px;
+    top: 30px;
+    left: -70px;
 }
 
 .maintitle {
@@ -73,10 +73,24 @@ nav {
     text-align: center;
 }
 
-.section3 {
-    padding-top: $padding;
+.sectionTitle {
+    padding-top: 50px;
+    text-align: center;
+}
 
-    .heading3 {
-        font-weight: bold;
+.sectionProjects {
+    padding-top: 50px;
+
+    .project1 {
+        padding-top: 50px;
+        margin-right: 50px;
     }
+
+    .project3 {
+        margin-left: 50px;
+    }
+}
+
+footer {
+    background-color: rgba(216, 217, 222, 0.88);
 }
