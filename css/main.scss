@@ -14,68 +14,66 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: right;
+    text-align: center;
 
     .nav ul {
         list-style: none;
     }
 
     .nav li {
-        display: inline;
+        display: block;
+        text-decoration: underline;
     }
 
     .nav a {
-        display: inline-block;
+        display: block;
         text-decoration: none;
         padding: 10px;
-        color: $navcolour;
+        color: #ffffff;
         font-weight: bold;
     }
 }
 
-.name {
-    color: $titleColour;
-    font-weight: bold;
-    text-align: left;
-    position: absolute;
-    top: 10px;
-}
-
-.student {
-    color: $titleColour;
-    text-align: left;
-    position: absolute;
-    font-size: 15px;
-    top: 30px;
-    left: -70px;
-}
-
 .maintitle {
-    font-family: $mainfont;
-    color: $titleColour;
+    font-family: sans-serif;
+    color: #ffffff;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 5px;
+    font-size: 40px;
 }
 
 .section1 {
-    background-color: $section1;
+    background-color: rgb(46, 157, 237);
     height: 500px;
 
     .introduction {
-        color: $titleColour;
+        color: #ffffff;
         text-align: center;
-        padding-top: 60px;
+        position: absolute;
+        top:400px;
+
     }
 }
 
 .basics {
     color: $titleColour;
     text-align: center;
+    padding-top: 110px;
+}
+
+.maintitle {
+    font-family: $mainfont;
+    color: $titleColour;
+    text-align: center;
+    top: 180px;
+    position: absolute;
 }
 
 .sectionTitle {
     padding-top: 50px;
     text-align: center;
+    background-color: rgba(216, 217, 222, 0.88);
+    margin-bottom: 20px;
 }
 
 .sectionProjects {
