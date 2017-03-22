@@ -38,7 +38,9 @@ nav {
 .basics {
   color: #ffffff;
   text-align: center;
-  padding-top: 110px; }
+  padding-top: 100px;
+  position: absolute;
+  top: 185px; }
 
 .maintitle {
   font-family: "sans-serif", "verdana";
@@ -50,8 +52,9 @@ nav {
 .sectionTitle {
   padding-top: 50px;
   text-align: center;
-  background-color: rgba(216, 217, 222, 0.88);
   margin-bottom: 20px; }
+  .sectionTitle .bold {
+    color: rgba(216, 217, 222, 0.88); }
 
 .sectionProjects {
   padding-top: 50px; }

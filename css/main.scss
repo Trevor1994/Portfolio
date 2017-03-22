@@ -5,6 +5,21 @@ $section1: rgb(46, 157, 237);
 $section2: rgba(42, 41, 41, 0.09);
 $padding: 20px;
 
+@mixin links ($link, $visited, $hover, $active) {
+    & {
+        color: $link;
+        &:visited {
+            color: $visited;
+        }
+        &:hover {
+            color: $hover;
+        }
+        &:active, &:focus {
+            color: $active;
+        }
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -58,7 +73,9 @@ nav {
 .basics {
     color: $titleColour;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 100px;
+    position: absolute;
+    top:185px;
 }
 
 .maintitle {
@@ -72,8 +89,10 @@ nav {
 .sectionTitle {
     padding-top: 50px;
     text-align: center;
-    background-color: rgba(216, 217, 222, 0.88);
     margin-bottom: 20px;
+      .bold {
+        color: rgba(216, 217, 222, 0.88);
+      }
 }
 
 .sectionProjects {

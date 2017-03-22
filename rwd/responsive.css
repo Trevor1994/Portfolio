@@ -1,10 +1,10 @@
 /* Mobile first queries */
 /* Larger than mobile */
-@media (max-width: 550px) {
-  .name {
+@media (max-width: 750px) {
+  .student {
     display: none; }
 
-  .student {
+  .name {
     display: none; } }
 @media (min-width: 550px) {
   nav {
@@ -42,7 +42,9 @@
     color: #ffffff;
     text-align: center;
     padding-top: 110px;
-    font-size: 20px; } }
+    font-size: 20px;
+    top: 175px;
+    position: absolute; } }
 /* Larger than tablet */
 @media (min-width: 750px) {
   .name {
@@ -58,8 +60,40 @@
     position: absolute;
     font-size: 15px;
     top: 30px;
-    left: -70px; } }
+    left: -70px; }
+
+  .maintitle {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px; }
+
+  .introduction {
+    color: #ffffff;
+    text-align: center;
+    padding-top: -10px;
+    margin-bottom: 20px;
+    position: absolute;
+    font-size: 20px; }
+
+  .basics {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 110px;
+    font-size: 20px;
+    top: 175px;
+    left: 200px;
+    position: absolute; } }
 /* Larger than desktop */
+@media (min-width: 1000px) {
+  .maintitle {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+    left: 80px; } }
 /* Larger than Desktop HD */
 
 /*# sourceMappingURL=responsive.css.map */

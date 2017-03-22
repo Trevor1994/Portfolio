@@ -1,15 +1,14 @@
 /* Mobile first queries */
 /* Larger than mobile */
-@media (max-width:550px) {
-  .name {
-    display: none;
-  }
-
+@media (max-width: 750px) {
   .student {
     display: none;
   }
-
+  .name {
+    display: none;
+  }
 }
+
 @media (min-width: 550px) {
     nav {
         list-style: none;
@@ -55,6 +54,8 @@
         text-align: center;
         padding-top: 110px;
         font-size: 20px;
+        top: 175px;
+        position: absolute;
     }
 }
 /* Larger than tablet */
@@ -75,9 +76,45 @@
       top: 30px;
       left: -70px;
   }
+
+  .maintitle {
+      font-family: sans-serif;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 50px;
+  }
+
+  .introduction {
+      color: #ffffff;
+      text-align: center;
+      padding-top: -10px;
+      margin-bottom: 20px;
+      position: absolute;
+      font-size: 20px;
+  }
+
+  .basics {
+      color: #ffffff;
+      text-align: center;
+      padding-top: 110px;
+      font-size: 20px;
+      top: 175px;
+      left:200px;
+      position: absolute;
+  }
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+  .maintitle {
+      font-family: sans-serif;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 60px;
+      left:80px;
+  }
+}
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
