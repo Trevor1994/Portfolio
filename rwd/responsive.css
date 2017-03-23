@@ -1,11 +1,12 @@
-/* Mobile first queries */
-/* Larger than mobile */
+/* wont show the following elements between 0-750px screen size */
 @media (max-width: 750px) {
   .student {
     display: none; }
 
   .name {
     display: none; } }
+/* Mobile first queries */
+/* Larger than mobile */
 @media (min-width: 550px) {
   nav {
     list-style: none;
@@ -84,7 +85,12 @@
     font-size: 20px;
     top: 175px;
     left: 200px;
-    position: absolute; } }
+    position: absolute; }
+
+  img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */ } }
 /* Larger than desktop */
 @media (min-width: 1000px) {
   .maintitle {

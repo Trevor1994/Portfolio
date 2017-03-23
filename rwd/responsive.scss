@@ -1,14 +1,15 @@
+/* wont show the following elements between 0-750px screen size */
+@media (max-width: 750px) {
+    .student {
+        display: none;
+    }
+
+    .name {
+        display: none;
+    }
+}
 /* Mobile first queries */
 /* Larger than mobile */
-@media (max-width: 750px) {
-  .student {
-    display: none;
-  }
-  .name {
-    display: none;
-  }
-}
-
 @media (min-width: 550px) {
     nav {
         list-style: none;
@@ -32,6 +33,7 @@
             font-weight: bold;
         }
     }
+
     .maintitle {
         font-family: sans-serif;
         color: #ffffff;
@@ -60,61 +62,66 @@
 }
 /* Larger than tablet */
 @media (min-width: 750px) {
-  .name {
-      color: #ffffff;
-      font-weight: bold;
-      text-align: left;
-      position: absolute;
-      top: 10px;
-  }
+    .name {
+        color: #ffffff;
+        font-weight: bold;
+        text-align: left;
+        position: absolute;
+        top: 10px;
+    }
 
-  .student {
-      color: #ffffff;
-      text-align: left;
-      position: absolute;
-      font-size: 15px;
-      top: 30px;
-      left: -70px;
-  }
+    .student {
+        color: #ffffff;
+        text-align: left;
+        position: absolute;
+        font-size: 15px;
+        top: 30px;
+        left: -70px;
+    }
 
-  .maintitle {
-      font-family: sans-serif;
-      color: #ffffff;
-      text-align: center;
-      padding-top: 10px;
-      font-size: 50px;
-  }
+    .maintitle {
+        font-family: sans-serif;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 50px;
+    }
 
-  .introduction {
-      color: #ffffff;
-      text-align: center;
-      padding-top: -10px;
-      margin-bottom: 20px;
-      position: absolute;
-      font-size: 20px;
-  }
+    .introduction {
+        color: #ffffff;
+        text-align: center;
+        padding-top: -10px;
+        margin-bottom: 20px;
+        position: absolute;
+        font-size: 20px;
+    }
 
-  .basics {
-      color: #ffffff;
-      text-align: center;
-      padding-top: 110px;
-      font-size: 20px;
-      top: 175px;
-      left:200px;
-      position: absolute;
-  }
+    .basics {
+        color: #ffffff;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 20px;
+        top: 175px;
+        left: 200px;
+        position: absolute;
+    }
+
+    img:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        /* For IE8 and earlier */
+    }
 }
-
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  .maintitle {
-      font-family: sans-serif;
-      color: #ffffff;
-      text-align: center;
-      padding-top: 10px;
-      font-size: 60px;
-      left:80px;
-  }
+    .maintitle {
+        font-family: sans-serif;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 60px;
+        left: 80px;
+    }
 }
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
