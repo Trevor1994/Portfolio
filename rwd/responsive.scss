@@ -1,13 +1,14 @@
 /* wont show the following elements between 0-750px screen size */
 @media (max-width: 750px) {
-    .student {
-        display: none;
-    }
-    .name {
-        display: none;
-    }
+  .student {
+    display: none;
+  }
+  .name {
+    display: none;
+  }
 }
 /* Mobile first queries */
+
 /* Larger than mobile */
 @media (min-width: 550px) {
     nav {
@@ -34,7 +35,7 @@
     }
 
     .maintitle {
-        font-family: sans-serif;
+        font-family: 'Patua One', 'sans-serif';
         color: #ffffff;
         text-align: center;
         padding-top: 10px;
@@ -42,7 +43,7 @@
     }
 
     .maintitle2 {
-      font-family: sans-serif;
+      font-family: 'Patua One', 'sans-serif';
       color: #ffffff;
       text-align: center;
       padding-top: 10px;
@@ -67,6 +68,10 @@
         top: 175px;
         position: absolute;
     }
+    .sectionTitle {
+      font-family: 'Patua One', 'sans-serif';
+    }
+
 }
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -88,7 +93,7 @@
     }
 
     .maintitle {
-        font-family: sans-serif;
+        font-family: 'Patua One', 'sans-serif';
         color: #ffffff;
         text-align: center;
         padding-top: 10px;
@@ -96,7 +101,7 @@
     }
 
     .maintitle2 {
-      font-family: sans-serif;
+      font-family: 'Patua One', 'sans-serif';
       color: #ffffff;
       text-align: center;
       padding-top: 10px;
@@ -107,7 +112,7 @@
     .introduction {
         color: #ffffff;
         text-align: center;
-        padding-top: -10px;
+        padding-top: 20px;
         margin-bottom: 20px;
         position: absolute;
         font-size: 20px;
@@ -118,25 +123,98 @@
         text-align: center;
         padding-top: 110px;
         font-size: 20px;
-        top: 175px;
+        top: 160px;
         left: 200px;
         position: absolute;
     }
 
-    img:hover {
-        opacity: 0.5;
-        filter: alpha(opacity=50);
-        /* For IE8 and earlier */
+    .sectionTitle {
+      font-family: 'Patua One', 'sans-serif';
     }
-    .project3 {
-      position: absolute;
-      bottom: 23px;
+
+    /* List of the projects that have been completed */
+    .sectionProjects {
+        .photo-grid {
+            margin: 1em auto;
+            max-width: 1106px;
+            text-align: center;
+        }
+
+        .photo-grid li {
+            border: 5px solid white;
+            display: inline-block;
+            margin: 1em;
+            width: 289px;
+        }
+
+        .photo-grid img {
+          display: block;
+          height: auto;
+          -webkit-transition: all 300ms;
+          -moz-transition: all 300ms;
+          transition: all 300ms;
+          max-width: 100%;
+        }
+
+        .photo-grid li:hover img {
+        	-webkit-transform: scale(1.4);
+        	-moz-transform: scale(1.4);
+        	transform: scale(1.4);
+        }
+
+        .photo-grid figure {
+            height: 163px;
+            overflow: hidden;
+            position: relative;
+            width: 289px;
+        }
+
+        .photo-grid figcaption {
+          background: rgba(0,0,0,0.8);
+          color: white;
+          display: table;
+          height: 100%;
+          left: 0;
+          opacity: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          -webkit-transition: all 300ms;
+          -moz-transition: all 300ms;
+          transition: all 300ms;
+          -webkit-transition-delay: 100ms;
+          -moz-transition-delay: 100ms;
+          transition-delay: 100ms;
+          z-index: 100;
+        }
+
+        .photo-grid figcaption p {
+          display: table-cell;
+          font-size: 1.5em;
+          position: relative;
+          top: -40px;
+          width: 289px;
+          -webkit-transition: all 300ms ease-out;
+          -moz-transition: all 300ms ease-out;
+          transition: all 300ms ease-out;
+          vertical-align: middle;
+        }
+
+        .photo-grid li:hover figcaption p {
+          -moz-transform: translateY(40px);
+          -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+        }
+
+        .photo-grid li:hover figcaption {
+    	      opacity: 1;
+        }
     }
 }
 /* Larger than desktop */
 @media (min-width: 1000px) {
     .maintitle {
-        font-family: sans-serif;
+        font-family: 'Patua One', 'sans-serif';
         color: #ffffff;
         text-align: center;
         padding-top: 10px;
