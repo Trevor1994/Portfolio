@@ -22,7 +22,8 @@
       text-decoration: none;
       padding: 10px;
       color: #ffffff;
-      font-weight: bold; }
+      font-weight: bold;
+      font-family: 'Patua One', 'sans-serif'; }
 
   .maintitle {
     font-family: 'Patua One', 'sans-serif';
@@ -45,7 +46,8 @@
     padding-top: -10px;
     margin-bottom: 20px;
     position: absolute;
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: 'Patua One', 'sans-serif'; }
 
   .basics {
     color: #ffffff;
@@ -53,7 +55,8 @@
     padding-top: 110px;
     font-size: 20px;
     top: 175px;
-    position: absolute; }
+    position: absolute;
+    font-family: 'Patua One', 'sans-serif'; }
 
   .sectionTitle {
     font-family: 'Patua One', 'sans-serif'; } }
@@ -132,14 +135,7 @@
   .sectionProjects .photo-grid img {
     display: block;
     height: auto;
-    -webkit-transition: all 300ms;
-    -moz-transition: all 300ms;
-    transition: all 300ms;
     max-width: 100%; }
-  .sectionProjects .photo-grid li:hover img {
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    transform: scale(1.4); }
   .sectionProjects .photo-grid figure {
     height: 163px;
     overflow: hidden;
@@ -155,12 +151,6 @@
     position: absolute;
     right: 0;
     top: 0;
-    -webkit-transition: all 300ms;
-    -moz-transition: all 300ms;
-    transition: all 300ms;
-    -webkit-transition-delay: 100ms;
-    -moz-transition-delay: 100ms;
-    transition-delay: 100ms;
     z-index: 100; }
   .sectionProjects .photo-grid figcaption p {
     display: table-cell;
@@ -168,16 +158,7 @@
     position: relative;
     top: -40px;
     width: 289px;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
     vertical-align: middle; }
-  .sectionProjects .photo-grid li:hover figcaption p {
-    -moz-transform: translateY(40px);
-    -webkit-transform: translateY(40px);
-    transform: translateY(40px); }
-  .sectionProjects .photo-grid li:hover figcaption {
-    opacity: 1; }
 
   .maintitle4 {
     font-family: 'Patua One', 'sans-serif';
@@ -208,7 +189,21 @@
     text-align: center;
     padding-top: 10px;
     font-size: 60px;
-    left: 80px; } }
+    left: 130px;
+    position: absolute; }
+    .maintitle .developer {
+      color: #c8c8c8; }
+
+  .student {
+    display: none; }
+
+  .name {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 5px;
+    font-family: 'Patua One', 'sans-serif'; } }
 /* Larger than Desktop HD */
 
 /*# sourceMappingURL=responsive.css.map */
