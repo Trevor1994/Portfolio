@@ -168,9 +168,7 @@
       padding-top: 30px;
       display: inline-block;
       list-style-type: none;
-      margin: 10px 80px; }
-    footer .social_icons li:hover {
-      border: 2px solid #160eab; } }
+      margin: 10px 80px; } }
 /* Larger than desktop */
 @media (min-width: 1000px) {
   .maintitle {
