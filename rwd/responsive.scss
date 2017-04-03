@@ -122,6 +122,15 @@
         position: absolute;
     }
 
+    .maintitle4 {
+      font-family: 'Patua One', 'sans-serif';
+      color: #ffffff;
+      text-align: center;
+      left: 370px;
+      top: 180px;
+      position: absolute;
+    }
+
     /* introduction about myself */
     .introduction {
         color: #ffffff;
@@ -130,6 +139,7 @@
         margin-bottom: 20px;
         position: absolute;
         font-size: 20px;
+
     }
 
     .basics {
@@ -150,73 +160,58 @@
     .sectionProjects {
         .photo-grid {
       	margin: 1em auto;
-      	max-width: 1106px;
       	text-align: center;
+        display: inline-block;
+        width:100%;
       }
 
       .photo-grid li {
       	border: 5px solid white;
       	display: inline-block;
       	margin: 1em;
-      	width: 289px;
       }
 
       .photo-grid img {
-      	display: block;
+      	display: inline;
       	height: auto;
-      	max-width: 100%;
+        display: inline-block;
       }
 
       .photo-grid figure {
       	height: 163px;
       	overflow: hidden;
       	position: relative;
-      	width: 289px;
-      }
-
-      .photo-grid figcaption {
-      	background: rgba(0,0,0,0.8);
-      	color: white;
-      	display: table;
-      	height: 100%;
-      	left: 0;
-      	opacity: 0;
-      	position: absolute;
-      	right: 0;
-      	top: 0;
-      	z-index: 100;
       }
 
       .photo-grid figcaption p {
+        background: rgba(0,0,0,0.8);
       	display: table-cell;
       	font-size: 1.5em;
-      	position: relative;
+      	position: absolute;
       	top: -40px;
-      	width: 289px;
       	vertical-align: middle;
       }
-}
-    .maintitle4 {
-      font-family: 'Patua One', 'sans-serif';
-      color: #ffffff;
-      text-align: center;
-      left: 350px;;
-      top: 180px;
-      position: absolute;
     }
-    .pagesTitle {
-      position: absolute;
-      top:40px;
-      left:800px;
-      list-style-type: none;
-      font-family: 'Patua One', 'sans-serif';
-    }
-    .footerPages {
-      position: absolute;
-      top:85px;
-      left: 800px;
-      list-style-type: none;
-      font-family: 'Patua One', 'sans-serif';
+    /* the footer which has the form in */
+    footer {
+        background-color: rgba(216, 217, 222, 0.88);
+        .copyright {
+            text-align: center;
+            font-family: 'Patua One', 'sans-serif';
+            font-style: italic;
+            color: rgb(37, 1, 159);
+        }
+        .social_icons {
+            li {
+            padding-top: 30px;
+            display: inline-block;
+            list-style-type: none;
+            margin: 10px 80px;
+            }
+            li:hover {
+              border: 2px solid rgb(22, 14, 171);
+            }
+        }
     }
 }
 /* Larger than desktop */
