@@ -20,8 +20,14 @@ $padding: 20px;
 /* LookFantastic introduction text */
 .lookfantasticintro {
   padding-top: 20px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
+  position: relative;
+}
+
+.lookfantastic1 {
+  padding-top: 20px;
+  text-align: left;
 }
 
 /* Cleversteam main title */

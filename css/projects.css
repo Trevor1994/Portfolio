@@ -11,8 +11,13 @@
 /* LookFantastic introduction text */
 .lookfantasticintro {
   padding-top: 20px;
-  text-align: center;
-  font-weight: bold; }
+  text-align: left;
+  font-weight: bold;
+  position: relative; }
+
+.lookfantastic1 {
+  padding-top: 20px;
+  text-align: left; }
 
 /* Cleversteam main title */
 .maintitle5 {
