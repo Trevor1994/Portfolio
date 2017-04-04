@@ -1,0 +1,113 @@
+$mainfont: 'Patua One', 'sans-serif';
+$titleColour: #ffffff;
+$navcolour: #ffffff;
+$section1: rgb(46, 157, 237);
+$section2: rgba(42, 41, 41, 0.09);
+$padding: 20px;
+
+/* Styling for a screen size of 0-400px max-width */
+
+/* LookFantastic main title */
+.maintitle5 {
+  font-family: $mainfont;
+  color: $titleColour;
+  text-align: center;
+  left: 10px;
+  top: 180px;
+  position: absolute;
+}
+
+/* LookFantastic introduction text */
+.lookfantasticintro {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Cleversteam main title */
+.maintitle5 {
+  font-family: $mainfont;
+  color: $titleColour;
+  text-align: center;
+  left: 10px;
+  top: 180px;
+  position: absolute;
+}
+
+/* Introduction text for Cleversteam */
+.cleversteamintro {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Final Year Project main title */
+.maintitle7 {
+  font-family: $mainfont;
+  color: $titleColour;
+  text-align: center;
+  left: 45px;
+  top: 180px;
+  position: absolute;
+}
+
+/* Introduction text for Final Year Project */
+.finalyearintro {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .maintitle5 {
+    font-family: $mainfont;
+    color: $titleColour;
+    text-align: center;
+    left: 230px;
+    top: 180px;
+    position: absolute;
+  }
+
+  .lookfantasticintro {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .maintitle6 {
+    font-family: $mainfont;
+    color: $titleColour;
+    text-align: center;
+    left: 280px;
+    top: 180px;
+    position: absolute;
+  }
+  /* Final Year Project main title */
+  .maintitle7 {
+    font-family: $mainfont;
+    color: $titleColour;
+    text-align: center;
+    left: 290px;
+    top: 180px;
+    position: absolute;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+/* lookfantastic project  */
+
+
+/* Cleversteam project  */
+
+/* Final Year  project  */
